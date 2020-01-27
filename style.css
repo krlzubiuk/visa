@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.col-md-2 {
+    width: 16.66%;
+    
+}
+col-md-9 {
+    width: 75%;
+    
+}
+.com-md-5 {
+    width: 41.65%;
+     display:block;
+    margin: 0 15px;
+}
+.col-md-6 {
+    width: 50%;
+     display:block;
+    margin: 0 15px;
+}
+.col-md-4 {
+    width: 33.33%;
+    display:block;
+    margin: 0 15px;
+}
+.inner-header {
+    
+    background-color: #9483db;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    
+}
+.logo {
+    
+    display: block;
+    
+
+    
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+
+}
+header {
+      background:  linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(img/bg1.png);
+    
+}
+.menu {
+    display: flex;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+   
+}
+
+.menu a {
+    
+    display: block;
+   
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: center;
+
+    
+}
+.menu li>a:hover {
+    border-bottom: 2px solid red;
+}
+
+.vid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.travels {
+    height: 500px;
+ 
+}
+
+.unic-question {
+    color: white;
+}
+.video {
+    width: 445px;
+    height: 245px;
+    background-color: #c4c4c4;
+    border: 10px solid #9483db;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 10px #7668b3;
+    
+}
+.wich-country {
+    margin-top: 55px;
+    display: flex;
+   justify-content: flex-end;
+}
+.ask {
+    width: 356px;
+    height: 380px;
+    background-color: #baacf5;
+    opacity: 0.8;
+    border: 10px solid #9483db;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 10px #7668b3;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    
+}
+
+.ask input {
+    width: 320px;
+    height: 42px;
+    margin-bottom: 15px;
+    background-color: #ddd6fa;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    
+}
+.qwest {
+    text-transform: uppercase;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+    width: 160px;
+    height: 37px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+}
+
+
+
+/*packages*/
+
+
+.packages {
+    height: 525px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.package-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+}
+
+    
+
+.visa-support {
+    background-color: #cdebfa;
+    text-align: center;
+    border: 4px solid #88a3d6;
+    border-radius: 4px;
+    height: 454px;
+}
+.visa-support button {
+    color: white;
+    width:  141px;
+    height: 32px;
+    background-color: #3eb5f1;
+    border: none;
+    border-radius: 3px;
+}
+.travel-us {
+    background-color: #fdd3ff;
+    text-align: center;
+    border: 4px solid #f06292;
+    border-radius: 4px;
+    height: 454px;
+}
+.travel-us button {
+    color: white;
+    width:  141px;
+    height: 32px;
+    background-color: #f06292;
+    border: none;
+    border-radius: 3px;
+}
+.help-master {
+    
+    background-color: #fffab8;
+    text-align: center;
+    border: 4px solid #ffa726;
+    border-radius: 4px;
+    height: 454px;
+    padding: 0 15px;
+  
+}
+.pack-text {
+    height: 257px;
+}
+.help-master button {
+    color: white;
+    width:  141px;
+    height: 32px;
+    background-color: #ffa726;
+    border: none;
+    border-radius: 3px;
+
+    
+   
+}
+
+.client-servise {
+    background-color: #3eb5f1;
+    color: white;
+    
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+}
+.features li {
+    display: flex;
+    align-items: center;
+    
+}
+.features img{
+    margin-right: 15px;
+}
+.features h5 {
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.features p {
+    margin: 0 auto;
+    font-size: 13px;
+    
+}
+.price button {
+    width: 167px;
+    height: 30px;
+    color: white;
+    background-color: #f06292;
+    border: none;
+    border-radius: 3px;
+}
+.pric {
+    display: block;
+    margin-right: 21px;
+}
+.price1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.unic-route {
+    background-color: #f06292;
+    height: 550px;
+}
+
+
