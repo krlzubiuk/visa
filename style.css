@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body {
+    margin: 0 auto;
+}
 
 .container {
     width: 940px;
@@ -10,13 +13,18 @@
 
 .col-md-2 {
     width: 16.66%;
-    
+
+}
+.col-md-3 {
+    width: 25%;
+     display:block;
+    margin: 0 15px;
 }
 col-md-9 {
     width: 75%;
-    
+
 }
-.com-md-5 {
+.col-md-5 {
     width: 41.65%;
      display:block;
     margin: 0 15px;
@@ -32,19 +40,19 @@ col-md-9 {
     margin: 0 15px;
 }
 .inner-header {
-    
+
     background-color: #9483db;
     height: 75px;
     display: flex;
     align-items: center;
-    
+
 }
 .logo {
-    
-    display: block;
-    
 
-    
+    display: block;
+
+
+
 }
 .row {
     display: flex;
@@ -54,7 +62,7 @@ col-md-9 {
 }
 header {
       background:  linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(img/bg1.png);
-    
+
 }
 .menu {
     display: flex;
@@ -64,13 +72,13 @@ header {
     display: inline-block;
     list-style: none;
     margin-left: 50px;
-   
+
 }
 
 .menu a {
-    
+
     display: block;
-   
+
     text-decoration: none;
     color:white;
     font-size: 14px;
@@ -78,7 +86,7 @@ header {
     font-weight: 900;
     text-align: center;
 
-    
+
 }
 .menu li>a:hover {
     border-bottom: 2px solid red;
@@ -91,7 +99,7 @@ header {
 
 .travels {
     height: 500px;
- 
+
 }
 
 .unic-question {
@@ -104,7 +112,7 @@ header {
     border: 10px solid #9483db;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 10px #7668b3;
-    
+
 }
 .wich-country {
     margin-top: 55px;
@@ -121,8 +129,8 @@ header {
     box-shadow: 0px 0px 10px 10px #7668b3;
     text-align: center;
     padding-bottom: 20px;
-    
-    
+
+
 }
 
 .ask input {
@@ -133,7 +141,7 @@ header {
     border-radius: 5px;
     color: white;
     font-size: 19px;
-    
+
 }
 .qwest {
     text-transform: uppercase;
@@ -174,7 +182,7 @@ header {
     height: 120px;
 }
 
-    
+
 
 .visa-support {
     background-color: #cdebfa;
@@ -207,14 +215,14 @@ header {
     border-radius: 3px;
 }
 .help-master {
-    
+
     background-color: #fffab8;
     text-align: center;
     border: 4px solid #ffa726;
     border-radius: 4px;
     height: 454px;
     padding: 0 15px;
-  
+
 }
 .pack-text {
     height: 257px;
@@ -227,14 +235,16 @@ header {
     border: none;
     border-radius: 3px;
 
-    
-   
+
+
 }
 
 .client-servise {
     background-color: #3eb5f1;
     color: white;
-    
+    height: 525px;
+    padding-top: 50px;
+
 }
 
 .features {
@@ -244,7 +254,7 @@ header {
 .features li {
     display: flex;
     align-items: center;
-    
+
 }
 .features img{
     margin-right: 15px;
@@ -253,12 +263,12 @@ header {
     margin: 0 auto;
     font-size: 16px;
     font-weight: bold;
-    
+
 }
 .features p {
     margin: 0 auto;
     font-size: 13px;
-    
+
 }
 .price button {
     width: 167px;
@@ -275,11 +285,62 @@ header {
 .price1 {
     display: flex;
     justify-content: flex-start;
+    margin-top: 35px;
+}
+.price1 span {
+    margin-right: 30px;
+
+}
+.price12 button {
+    width: 167px;
+    height: 30px;
+    color: white;
+    background-color: #ffa726;
+    border: none;
+    border-radius: 3px;
+}
+.price13 button {
+    width: 167px;
+    height: 30px;
+    color: white;
+    background-color: #3eb5f1;
+    border: none;
+    border-radius: 3px;
 }
 
 .unic-route {
     background-color: #f06292;
     height: 550px;
+    padding-top: 50px;
+    color: white;
+}
+.decision-question {
+    background-color: #ffa726;
+    color: white;
+    height: 525px;
+    padding-top: 50px;
 }
 
+
+.first-travel {
+    background-color: #707dc8;
+    height: 242px;
+    color: white;
+
+}
+.count {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    
+    background: url(img/345.png) no-repeat;
+    background-position: center;
+    font-size: 42px;
+}
+.contacts {
+    background-color: #5c6bc0;
+    color: white;
+
+}
 
