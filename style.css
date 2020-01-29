@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 body {
     margin: 0 auto;
@@ -13,6 +14,8 @@ body {
 
 .col-md-2 {
     width: 16.66%;
+     display:block;
+    margin: 0 15px;
 
 }
 .col-md-3 {
@@ -22,6 +25,8 @@ body {
 }
 col-md-9 {
     width: 75%;
+     display:block;
+    margin: 0 15px;
 
 }
 .col-md-5 {
@@ -104,9 +109,21 @@ header {
 
 .unic-question {
     color: white;
+    text-align: center;
+}
+.unic-question h5 {
+    font-size: 19px;
+    margin: 15px;
+}
+.unic-question h3 {
+    font-family: open sans;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
 }
 .video {
-    width: 445px;
+    width: 90%;
     height: 245px;
     background-color: #c4c4c4;
     border: 10px solid #9483db;
@@ -117,10 +134,10 @@ header {
 .wich-country {
     margin-top: 55px;
     display: flex;
-   justify-content: flex-end;
+   justify-content: center;
 }
 .ask {
-    width: 356px;
+    width: 90%;
     height: 380px;
     background-color: #baacf5;
     opacity: 0.8;
@@ -128,7 +145,7 @@ header {
     border-radius: 5px;
     box-shadow: 0px 0px 10px 10px #7668b3;
     text-align: center;
-    padding-bottom: 20px;
+
 
 
 }
@@ -143,10 +160,18 @@ header {
     font-size: 19px;
 
 }
+
+.ask1 p{
+    color: white;
+    text-align: left;
+    padding-left: 24px;
+    margin: 0 auto;
+
+}
 .qwest {
     text-transform: uppercase;
     color: blue;
-    font-family: sans-serif;
+    font-family: open sans;
     font-weight: bold;
     font-size: 19px;
     text-align: center;
@@ -161,6 +186,9 @@ header {
     font-weight: bold;
     font-size: 19px;
     text-align: center;
+    border: none;
+    margin-top: 15px;
+
 }
 
 
@@ -333,7 +361,7 @@ header {
     margin-top: 50px;
     text-align: center;
     justify-content: center;
-    
+
     background: url(img/345.png) no-repeat;
     background-position: center;
     font-size: 42px;
@@ -341,6 +369,76 @@ header {
 .contacts {
     background-color: #5c6bc0;
     color: white;
+    height: 308px;
+    padding-top: 50px;
 
 }
+.callback button {
+    width: 167px;
+    height: 30px;
+    color: white;
+    background-color: #d24a43;
+    border: none;
+    border-radius: 3px;
+    margin-top: 24px;
+}
+.contacts ul{
+    margin: 0;
+}
+.contacts a{
+    margin-left: 15px;
+}
+.callback {
+    text-align: center;
+}
+.callback input {
+    margin-top: 22px;
+    width: 376px;
+    height: 34px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.map {
+    display: flex;
+    max-width: 100%;
+}
+.inner-footer {
+    height: 124px;
+    background-color: #8575c9;
+}
+.links {display: block;}
+.links>a {
+    margin-left: 20px;
+}
 
+}
+@media (max-width: 768px) {
+    .container {
+        width: 765px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .col-md-6 {
+    width: 100%;
+     display:block;
+    margin: 0 15px;
+}
+}
+@media (max-width: 425px) {
+  .container {
+        width: 320px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .col-md-6 {
+    width: 100%;
+     display:block;
+    margin: 0 15px;
+}
+}
